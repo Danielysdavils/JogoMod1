@@ -1,0 +1,118 @@
+
+body{
+    background-color: var(--cor0)
+}
+
+/* HEADER DO PROJETO */
+
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+section.box01{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    border: 1px solid var(--cor2);
+    border-radius: 60px;
+    background-color: var(--cor2);
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1200px;
+    align-items: center;
+}
+
+/* SECTION - TELA DO JOGO */
+
+section.tela{
+    display: flex;
+    width: 80%;
+    height: 700px;
+    background-color: var(--cor0);
+    border: 40px solid var(--cor2);
+    border-radius: 60px;
+    margin: 30px;
+}
+
+/* SECTION CREADOR */
+
+section.criador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 50px;
+    background-color: var(--cor2);
+    border-radius: 60px;
+    margin: 15px;
+}
+#creador{
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor0);
+    background-color: var(--cor1);
+    padding: 10px;
+
+}
+/* SECTION BOTONES */
+
+section.teclas{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    background-color: var(--cor0);
+    border-radius: 60px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+div.mov01{
+    display: flex;
+    width: 90%;
+    height: 300px;
+    justify-content: space-between;
+}
+img.detallesteclas{
+    display: flex;
+    width: 252px;
+    height: 217px;
+    background-color: var(--cor2);
+    border-radius: 83px;
+    border: 7px solid var(--cor1);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+div.mov02{
+    display: flex;
+    width: 90%;
+    height: 100px;
+    align-content: center;
+    justify-content: center;
+}
+img.detallesteclas01{
+    display: flex;
+    background-color: var(--cor2);
+    border-radius: 360px;
+    width: 47px;
+    height: 46px;
+    margin: 30px;
+}
+/* FOOTER */
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}

@@ -1,0 +1,10 @@
+*{
+    margin: 0; padding: 0; border: none;
+}
+
+#root{
+    --cor0:black;
+    --cor1: grey; 
+    --cor2: white;
+    --cor3:gray; 
+}

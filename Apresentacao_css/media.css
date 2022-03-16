@@ -1,0 +1,34 @@
+@media(max-device-width:3000px){
+    section.box01{width: 90%; height: 100%}
+    section.tela{width: 90%; height: 2500px;}
+
+@media(max-device-width:2000px){
+    section.box01{width: 90%; height: 1050px;}
+    section.tela{width: 90%; height: 50%;}
+}
+@media(max-device-width:1000px){
+    section.box01{width: 90%; height: 10%;}
+    section.tela{width: 90%; height: 50%;}
+}
+
+@media(max-device-width:900px){
+    section.box01{width: 90%; height: 10%;}
+    section.tela{width: 90%; height: 50%;}
+}
+
+@media(max-device-width:700px){
+    section.box01{width: 90%; height: 10%;}
+    section.tela{width: 90%; height: 50%;}
+}
+
+
+@media(max-device-width:500px){
+    section.box01{width: 90%; height: 10%;}
+    section.tela{width: 90%; height: 50%;}
+}
+
+
+@media(max-device-width:300px){
+    section.box01{width: 90%; height: 10%;}
+    section.tela{width: 90%; height: 50%;}
+}
