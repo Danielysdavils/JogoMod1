@@ -1,0 +1,122 @@
+
+#root{
+    background-color: var(--cor0)
+}
+
+/* HEADER DO PROJETO */
+
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+section.box01{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    border: 1px solid var(--cor2);
+    border-radius: 60px;
+    background-color: var(--cor2);
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+/* SECTION - TELA DO JOGO */
+
+section.tela{
+    display: flex;
+    width: 80%;
+    height: 700px;
+    background-color: var(--cor0);
+    border: 40px solid var(--cor2);
+    border-radius: 60px;
+    margin: 30px;
+
+    flex-direction: column;
+}
+
+/* Container Titulo */
+
+section.contSect{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.contTxt{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1#texto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: var(--cor2);
+}
+
+/* Container Img */
+
+section.contImg{
+    width: 100%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+}
+div.contImg00{
+    width: 80%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+}
+img#img00{
+    height: 150px;
+    height: 150px;
+}
+
+/* CONTAINER BOTON */
+
+section.contBoton{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input#boton{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+/* FOOTER */
+
+footer#eP2{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+section.box02{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    border: 1px solid var(--cor2);
+    border-radius: 60px;
+    background-color: var(--cor2);
+}

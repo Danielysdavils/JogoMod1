@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="002.css">
+    <link rel="stylesheet" href="../../Apresentacao_css/reset.css">
+    <link rel="stylesheet" href="../../Apresentacao_css/media.css">
+    
+
+    <title>Fontes Da Realidade</title>
+
+</head>
+<body id="root">
+    <header id="eP">
+        <section class="box01"></section>
+    </header>
+
+    <main id="eP1">
+
+        <section class="tela">
+            
+            <section id="Conttitulo">
+                <h1 id="titulo">Seleccione seu personagem</h1>
+            </section>
+
+            <section id="contEsc">
+                <section id="selecP">
+                    <img id= "img00" src="../../midia/ImgPersonagens/hechicera.png" alt="" onclick="verMag()">
+                    <img id= "img01" src="../../midia/ImgPersonagens/draconato.png" alt="" onclick="verDrag()">
+                    <img id= "img02" src="../../midia/ImgPersonagens/ana.png" alt="" onclick="verAna()">
+                    <img id= "img03" src="../../midia/ImgPersonagens/elf.png" alt="" onclick="verElf()">
+                </section>
+
+                <section id="containerInf">
+                    
+                    <div class="container">
+
+                        <div class="img">
+                            <h2 id="trocatxt">Feiticera</h2>
+                            <img id = "trocaimg" src="../../midia/ImgPersonagens/hechicera.png" alt="">
+                        </div>
+
+                        <div class="info">
+                            <div class="op01">
+                                <img class="imgedit" src="../../midia/icons/vida1 (2).png" alt="">
+                                <h2 class="datos01">Vida: 40%</h2>
+                            </div>
+                            <div class="op02">
+                                <img class="imgedit" src="../../midia/icons/poder.png" alt="">
+                                <h2 class="datos02">Poder: 40%</h2>
+                            </div>
+                            <div class="op03">
+                                <img class="imgedit" src="../../midia/icons/resistencia.png" alt="">
+                                <h2 class="datos03">Resistencia: 40%</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="escolher">
+                    
+                    
+                    <div class="boton01">
+                    
+                            <input id="siguiente" type="button" value="escolher" onclick="escolher()">
+                        
+                    </div>
+                    
+                </section>
+
+            </section>
+
+        </section>
+        
+    </main>
+
+    <footer id="eP2">
+        <section class="box02"></section>
+    </footer>
+
+    <script src="002.JS"></script>
+
+</body>
+</html>

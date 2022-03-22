@@ -1,0 +1,225 @@
+
+#root{
+    background-color: var(--cor0)
+}
+
+/* HEADER DO PROJETO */
+
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+section.box01{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    border: 1px solid var(--cor2);
+    border-radius: 60px;
+    background-color: var(--cor2);
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+/* SECTION - TELA DO JOGO */
+
+section.tela{
+    display: flex;
+    width: 80%;
+    height: 700px;
+    background-color: var(--cor0);
+    border: 40px solid var(--cor2);
+    border-radius: 60px;
+    margin: 30px;
+
+    flex-direction: column;
+}
+
+/* Container titulo */
+
+section#Conttitulo{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+h1#titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--cor2);
+}
+
+/* CONTAINER ESCOLHAS */
+
+section#contEsc{
+    width: 100%;
+    height: 310px;
+    display: flex;
+}
+
+/* Seleccion de img personajes */
+
+section#selecP{
+    width: 20%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    margin: 3px;
+}
+
+/* Seccion de info personajes */
+
+section#containerInf{
+    width: 60%;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.container{
+    width: 95%;
+    height: 295px;
+    display: flex;
+    background-color: blue;
+}
+div.img{
+    width: 40%;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    background-color: antiquewhite;
+}
+img#trocaimg{
+    width: 100px;
+    height: 100px;
+}
+h2#trocatxt{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: var(--cor2);
+    margin-bottom: 15px;
+}
+
+/**/
+
+div.info{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+div.op01{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+h2.datos01{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--cor2);
+    font-size: 10px;
+}
+img.imgedit{
+    margin-right: 15px;
+}
+div.op02{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+h2.datos02{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--cor2);
+    font-size: 10px;
+}
+div.op03{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+h2.datos03{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--cor2);
+    font-size: 10px;
+}
+
+/* BOTON ESCOLHER */
+
+section.escolher{
+    width: 20%;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.boton01{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 75px;
+    height: 40px;
+    color: blueviolet;
+    padding: 10px;
+    display: flex;
+}
+
+/* FOOTER */
+
+footer#eP2{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+section.box02{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    border: 1px solid var(--cor2);
+    border-radius: 60px;
+    background-color: var(--cor2);
+}
