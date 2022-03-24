@@ -76,38 +76,41 @@ var boton = document.getElementById("siguiente")
 
 function escolher(){
     
-    var personaje = prompt("Escreva a letra correspondente ao personagem que deseja escolher! \n [a] Hechicera \n [b] Draconato \n [c]Anã \n [d]Elfo")
+    var personaje = prompt("Escreva o numero correspondente ao personagem que deseja escolher! \n [1] Hechicera \n [2] Draconato \n [3]Anã \n [4]Elfo")
 
     var nVidas = 3;
 
     while(nVidas >= 1){
-        if (personaje.indexOf("a") >= 0){
+        if (personaje.indexOf("1") >= 0){
             var jogador = "Hechicera"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = ("http://127.0.0.1:5500/Fases/Desafios/mago/Nivel1/html/001.html")
+            window.location.href = "/Fases/Desafios/mago/Nivel1/html/001.html";
             break;
-        }else if (personaje.indexOf("b") >= 0){
+        }else if (personaje.indexOf("2") >= 0){
             var jogador = "Draconato"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = ("http://127.0.0.1:5500/Fases/Desafios/draconato/Nivel1/html/001.html")
+            window.location.href = "/Fases/Desafios/draconato/Nivel1/html/001.html"
             break;
-        }else if (personaje.indexOf("c") >= 0){
+        }else if (personaje.indexOf("3") >= 0){
             var jogador = "Anã"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = ("http://127.0.0.1:5500/Fases/Desafios/Ana/Nivel1/html/001.html")
+            window.location.href = ("/Fases/Desafios/Ana/Nivel1/html/001.html")
             break;
-        }else if (personaje.indexOf("d") >= 0){
+        }else if (personaje.indexOf("4") >= 0){
             var jogador = "Elfo"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = ("http://127.0.0.1:5500/Fases/Desafios/elfo/Nivel1/html/001.html")
+            window.location.href = ("/Fases/Desafios/elfo/Nivel1/html/001.html")
             break;
         }
         alert(`digite un valor valido! \n Agora você tem: ${nVidas} vidas`)
 
-        personaje = prompt("Escreva a letra correspondente ao personagem que deseja escolher! \n [a] Hechicera \n [b] Draconato \n [c]Anã \n [d]Elfo");
+        personaje = prompt("Escreva a letra correspondente ao personagem que deseja escolher! \n [1] Hechicera \n [2] Draconato \n [3]Anã \n [4]Elfo");
         nVidas--;
     
     }
 
 }
 
+function retornar(){
+    window.location.href = "/Fases/História/01.html"
+}

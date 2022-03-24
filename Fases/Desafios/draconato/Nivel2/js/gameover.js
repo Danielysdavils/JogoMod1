@@ -21,5 +21,5 @@ escriba(titulo)
 var boton = document.getElementById("boton")
 
 function denovo (){
-    window.location.href = ("http://127.0.0.1:5500/Fases/Desafios/draconato/Nivel2/html/002.html")
+    window.location.href = "/Fases/Desafios/draconato/Nivel2/html/002.html"
 } 
