@@ -36,9 +36,12 @@ main{
 
 section.tela{
     display: flex;
+    align-items: center;
     width: 80%;
     height: 700px;
-    background-color: var(--cor0);
+    background-image: url("space.png");
+    background-position: center;
+    background-size: 100% 350px;
     border: 40px solid var(--cor2);
     border-radius: 60px;
     margin: 30px;
@@ -65,7 +68,7 @@ div.contTxt{
 }
 
 h1#texto{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Srisakdi', cursive;
     font-size: 30px;
     color: var(--cor2);
 }
@@ -73,16 +76,18 @@ h1#texto{
 /* Container Img */
 
 section.contImg{
-    width: 100%;
+    width: 40%;
     height: 175px;
     display: flex;
     justify-content: center;
 }
 div.contImg00{
-    width: 80%;
+    width: 175px;
     height: 175px;
     display: flex;
     justify-content: center;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 360px;
 }
 img#img00{
     height: 150px;
@@ -102,6 +107,13 @@ input#boton{
     width: 100px;
     height: 50px;
     border-radius: 30px;
+    transition: background-color 1s;
+}
+input#boton:hover{
+    transition: transform 1s;
+    transform: scale(1.2);
+    background-color: rgb(75, 51, 141);
+    color: rgb(233, 224, 213);
 }
 
 /* FOOTER */

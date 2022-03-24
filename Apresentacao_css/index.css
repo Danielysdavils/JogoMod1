@@ -38,7 +38,9 @@ section.tela{
     display: flex;
     width: 80%;
     height: 700px;
-    background-color: black;
+    background-image: url("castelo.png");
+    background-position: center;
+    background-size: 100% 350px;
     border: 40px solid var(--cor2);
     border-radius: 60px;
     margin: 30px;
@@ -85,9 +87,9 @@ section#titulo{
     align-items: center;
 }
 h1#titulo01{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 30px;
-    color: var(--cor2);
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 40px;
+    color: var(--cor3);
 }
 
 /* Boton */
@@ -99,17 +101,19 @@ div#boton01{
     align-items: center;
     justify-content: center;
 }
-input{
-    width: 100px;
-    height: 50px;
-    border-radius: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+img#com{
+    width: 70px;
+    height: 70px;
+    transition: transform 1s;
 }
+img#com:hover{
+
+    transform: scale(1.5);
+}
+
 a{
     text-decoration: none;    
 }
-
 
 
 /* FOOTER */

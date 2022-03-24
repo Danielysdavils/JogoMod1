@@ -37,14 +37,14 @@ section.tela{
     display: flex;
     width: 80%;
     height: 700px;
-    background-color: var(--cor0);
+    background-image: url("wizard-dark-dungeon-illustration.jpg");
+    background-position: center;
+    background-size: 100% 350px;
     border: 40px solid var(--cor2);
     border-radius: 60px;
     margin: 30px;
 
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 /* TITULO */
@@ -57,7 +57,7 @@ section.contTit{
     justify-content: center;
 }
 h1#titulo{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Srisakdi', cursive;
     font-size: 30px;
     color: var(--cor2);
 }
@@ -80,12 +80,16 @@ article.contparag{
     width: 60%;
     height: 219px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 15px;
 }
 p#txt01{
     color: var(--cor2);
     text-align: justify;
     font-size: 10px;
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 div.contBotones{
     width: 70%;
@@ -94,16 +98,28 @@ div.contBotones{
     justify-content: space-evenly;
     align-items: center;
 }
-input#boton01{
+img#boton01{
     width: 70px;
+    height: 70px;
     padding: 5px;
     border-radius: 30px;
+}
+img#boton01:hover{
+    transition: transform 1s;
+    transform: scale(1.2);
 }
 
 input#boton02{
     width: 78px;
     padding: 5px;
     border-radius: 30px;
+    font-family: 'Srisakdi', cursive;
+}
+input#boton02:hover{
+    transition: transform 1s;
+    transform: scale(1.2);
+    background-color: rgb(185, 76, 76);
+    color: rgb(233, 224, 213);
 }
 
 /* CARD DEL PERSONAJE - ASIDE */
@@ -113,6 +129,7 @@ aside.contInfo02{
     height: 295px;
     display: flex;
     align-items: flex-start;
+    background-color: rgba(36, 33, 46, 0.8);
     justify-content: center;
     margin: 10px;
     
@@ -133,7 +150,7 @@ div#img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 img{
     height: 80px;
@@ -157,7 +174,7 @@ article#opciones{
 
 h2#par01{
     color: var(--cor2);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 10px;
 }
 
@@ -170,9 +187,22 @@ div.respuesta{
     justify-content: center;
 }
 input#boton03{
-    background-color: brown;
+    width: 100px;
+    background-color: rgb(5, 121, 101);
     border-radius: 20px;
+    color: var(--cor2);
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+    font-family: 'Srisakdi', cursive;
 }
+input#boton03:hover{
+    transition: transform 1s;
+    transform: scale(1.2);
+    background-color: rgb(218, 153, 13);
+    color: rgb(8, 8, 8);
+}
+
+
 
 /* FOOTER */
 

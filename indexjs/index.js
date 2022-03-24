@@ -3,9 +3,11 @@ var start = document.getElementById("boton01")
 var titulo = document.getElementById("titulo")
 
 
+
     element.addEventListener("animationstart", function(){
         start.style.display = "none"; 
-        titulo.style.display = "none";   
+        titulo.style.display = "none";
+           
     })
     element.addEventListener("animationend", function(){
         
