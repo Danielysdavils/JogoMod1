@@ -89,7 +89,7 @@ function escolher(){
         }else if (personaje.indexOf("2") >= 0){
             var jogador = "Draconato"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = "../../Fases/Desafios/draconato/Nivel1/html/001.html"
+            window.location.href = "/../../Fases/Desafios/draconato/Nivel1/html/001.html"
             break;
         }else if (personaje.indexOf("3") >= 0){
             var jogador = "Anã"
