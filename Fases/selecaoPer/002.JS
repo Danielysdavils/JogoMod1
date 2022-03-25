@@ -112,5 +112,10 @@ function escolher(){
 }
 
 function retornar(){
+<<<<<<< HEAD
     window.location.href = ("/../../Fases/História/01.html")
 }
+=======
+    window.location.href = "../../Fases/História/01.html"
+}
+>>>>>>> 1d870b5beeec1cbe904c98c988468872c9447b32
