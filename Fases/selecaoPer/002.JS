@@ -89,17 +89,17 @@ function escolher(){
         }else if (personaje.indexOf("2") >= 0){
             var jogador = "Draconato"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = "/Fases/Desafios/draconato/Nivel1/html/001.html"
+            window.location.href = "../../Fases/Desafios/draconato/Nivel1/html/001.html"
             break;
         }else if (personaje.indexOf("3") >= 0){
             var jogador = "Anã"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = ("/Fases/Desafios/Ana/Nivel1/html/001.html")
+            window.location.href = ("../../Fases/Desafios/Ana/Nivel1/html/001.html")
             break;
         }else if (personaje.indexOf("4") >= 0){
             var jogador = "Elfo"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = ("/Fases/Desafios/elfo/Nivel1/html/001.html")
+            window.location.href = ("../../Fases/Desafios/elfo/Nivel1/html/001.html")
             break;
         }
         alert(`digite un valor valido! \n Agora você tem: ${nVidas} vidas`)
@@ -112,5 +112,5 @@ function escolher(){
 }
 
 function retornar(){
-    window.location.href = "/Fases/História/01.html"
+    window.location.href = "../../Fases/História/01.html"
 }
