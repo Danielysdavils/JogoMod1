@@ -30,7 +30,7 @@ var dados03 = document.querySelector("h2.datos03")
 
 function verMag(){
 
-    img.src = "/../midia/ImgPersonagens/hechicera.png"
+    img.src = "../../../midia/ImgPersonagens/hechicera.png"
     texto.innerText = "Hechicera"
     texto.style.color = "rgb(117, 24, 55)"
     fondo.style.backgroundColor = "rgba(231, 206, 207,0.9)"
@@ -39,7 +39,7 @@ function verMag(){
 
 function verDrag(){
 
-    img.src = "/../midia/ImgPersonagens/draconato.png"
+    img.src = "../../../midia/ImgPersonagens/draconato.png"
     texto.innerText = "Draconato"
     dados01.innerText = "Vida: 70%"
     dados02.innerText = "Poder: 80%"
@@ -50,7 +50,7 @@ function verDrag(){
 
 function verAna(){
 
-    img.src = "/../midia/ImgPersonagens/ana.png"
+    img.src = "../../../midia/ImgPersonagens/ana.png"
     texto.innerText = "Anã"
     dados01.innerText = "Vida: 90%"
     dados02.innerText = "Poder: 85%"
@@ -61,7 +61,7 @@ function verAna(){
 
 function verElf(){
 
-    img.src = "/../midia/ImgPersonagens/elf.png"
+    img.src = "../../../midia/ImgPersonagens/elf.png"
     texto.innerText = "Elfo"
     dados01.innerText = "Vida: 60%"
     dados02.innerText = "Poder: 90%"
@@ -84,22 +84,22 @@ function escolher(){
         if (personaje.indexOf("1") >= 0){
             var jogador = "Hechicera"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = "/../Fases/Desafios/mago/Nivel1/html/001.html";
+            window.location.href = "../../../Fases/Desafios/mago/Nivel1/html/001.html";
             break;
         }else if (personaje.indexOf("2") >= 0){
             var jogador = "Draconato"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = "/../Fases/Desafios/draconato/Nivel1/html/001.html";
+            window.location.href = "../../../Fases/Desafios/draconato/Nivel1/html/001.html";
             break;
         }else if (personaje.indexOf("3") >= 0){
             var jogador = "Anã"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = "/../Fases/Desafios/Ana/Nivel1/html/001.html";
+            window.location.href = "../../../Fases/Desafios/Ana/Nivel1/html/001.html";
             break;
         }else if (personaje.indexOf("4") >= 0){
             var jogador = "Elfo"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = "/../Fases/Desafios/elfo/Nivel1/html/001.html";
+            window.location.href = "../../../Fases/Desafios/elfo/Nivel1/html/001.html";
             break;
         }
         alert(`digite un valor valido! \n Agora você tem: ${nVidas} vidas`)
@@ -112,5 +112,5 @@ function escolher(){
 }
 
 function retornar(){
-    window.location.href = "/../Fases/Hist%C3%B3ria/html/01.html"
+    window.location.href = "../../../Fases/Hist%C3%B3ria/html/01.html"
 }
