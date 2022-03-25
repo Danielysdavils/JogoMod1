@@ -21,5 +21,5 @@ escriba(titulo)
 var boton = document.getElementById("boton")
 
 function denovo (){
-    window.location.href = "../../Fases/Desafios/elfo/Nivel3/html/003.html"
+    window.location.href = "/../Fases/Desafios/elfo/Nivel3/html/003.html"
 } 

@@ -21,5 +21,5 @@ escriba(titulo)
 var boton = document.getElementById("boton")
 
 function inicio (){
-    window.location.href = "../../index.html"
+    window.location.href = "/../index.html"
 } 
