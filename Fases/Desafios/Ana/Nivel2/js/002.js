@@ -6,7 +6,7 @@ var suich = 0
 
     if(suich === 0){
     function atras(){
-        window.location.href = "/Fases/Desafios/Ana/Nivel1/html/001.html"
+        window.location.href = "../../Fases/Desafios/Ana/Nivel1/html/001.html"
         }
     }
 
@@ -43,7 +43,7 @@ function escolher(){
         
         if(res.indexOf("3") >= 0){
             alert(`Muito Bem!`)
-            window.location.href = "/Fases/Desafios/Ana/Nivel3/html/003.html"
+            window.location.href = "../../Fases/Desafios/Ana/Nivel3/html/003.html"
             break;
         }else{
             alert(`Poxa essa não deu! Agora você tem ${nVidas}`)
@@ -52,6 +52,6 @@ function escolher(){
         }}
 
     if(nVidas == 0){
-        window.location.href = "/Fases/Desafios/Ana/Nivel2/html/gameover02.html"
+        window.location.href = "../../Fases/Desafios/Ana/Nivel2/html/gameover02.html"
     }
 }
