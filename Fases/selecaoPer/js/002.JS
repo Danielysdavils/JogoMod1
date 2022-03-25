@@ -84,7 +84,7 @@ function escolher(){
         if (personaje.indexOf("1") >= 0){
             var jogador = "Hechicera"
             alert(`Agora, começam novas aventuras com ${jogador}!`);
-            window.location.href = "file:///C:/Users/Ebanx/Documents/DanielysEstudio/JogoMod1/Fases/Desafios/mago/Nivel1/html/001.html";
+            window.location.href = "/../Fases/Desafios/mago/Nivel1/html/001.html";
             break;
         }else if (personaje.indexOf("2") >= 0){
             var jogador = "Draconato"

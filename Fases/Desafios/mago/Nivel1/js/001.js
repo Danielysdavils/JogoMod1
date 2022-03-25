@@ -42,7 +42,7 @@ function escolher(){
         
         if(res.indexOf("1") >= 0){
             alert(`Muito Bem!`)
-            window.location.href = "file:///C:/Users/Ebanx/Documents/DanielysEstudio/JogoMod1/Fases/Desafios/mago/Nivel2/html/002.html"
+            window.location.href = "/../Fases/Desafios/mago/Nivel2/html/002.html"
             break;
         }else{
             alert(`Poxa essa não deu! Agora você tem ${nVidas}`)
@@ -51,6 +51,6 @@ function escolher(){
         }}
 
     if(nVidas == 0){
-        window.location.href = "file:///C:/Users/Ebanx/Documents/DanielysEstudio/JogoMod1/Fases/Desafios/mago/Nivel1/html/gameover011.html"
+        window.location.href = "/../Fases/Desafios/mago/Nivel1/html/gameover011.html"
     }
 }
