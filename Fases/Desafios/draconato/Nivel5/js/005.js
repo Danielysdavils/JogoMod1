@@ -6,7 +6,7 @@ var suich = 0
 
     if(suich === 0){
     function atras(){
-        window.location.href = "file:///C:/Users/Ebanx/Documents/DanielysEstudio/JogoMod1/Fases/Desafios/draconato/Nivel4/html/004.html"
+        window.location.href = "/../Fases/Desafios/draconato/Nivel4/html/004.html"
         }
     }
 
@@ -43,7 +43,7 @@ function escolher(){
         
         if(res.indexOf("2") >= 0){
             alert(`Muito Bem!`)
-            window.location.href = "file:///C:/Users/Ebanx/Documents/DanielysEstudio/JogoMod1/Fases/Desafios/draconato/Nivel6/html/006.html"
+            window.location.href = "/../Fases/Desafios/draconato/Nivel6/html/006.html"
             break;
         }else{
             alert(`Poxa essa não deu! Agora você tem ${nVidas}`)
@@ -52,6 +52,6 @@ function escolher(){
         }}
 
     if(nVidas == 0){
-        window.location.href = "file:///C:/Users/Ebanx/Documents/DanielysEstudio/JogoMod1/Fases/Desafios/draconato/Nivel5/html/gameover.html"
+        window.location.href = "/../Fases/Desafios/draconato/Nivel5/html/gameover.html"
     }
 }

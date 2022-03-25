@@ -43,7 +43,7 @@ function escolher(){
         
         if(res.indexOf("2") >= 0){
             alert(`Muito Bem!`)
-            window.location.href = "file:///C:/Users/Ebanx/Documents/DanielysEstudio/JogoMod1/Fases/Desafios/elfo/Nivel5/html/005.html"
+            window.location.href = "/../Fases/Desafios/elfo/Nivel5/html/005.html"
             break;
         }else{
             alert(`Poxa essa não deu! Agora você tem ${nVidas}`)
@@ -52,6 +52,6 @@ function escolher(){
         }}
 
     if(nVidas == 0){
-        window.location.href = "file:///C:/Users/Ebanx/Documents/DanielysEstudio/JogoMod1/Fases/Desafios/elfo/Nivel4/html/gameover.html"
+        window.location.href = "/../Fases/Desafios/elfo/Nivel4/html/gameover.html"
     }
 }
