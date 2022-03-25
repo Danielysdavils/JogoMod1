@@ -6,7 +6,7 @@ var suich = 0
 
     if(suich === 0){
     function atras(){
-        window.location.href = ("../../Fases/selecaoPer/002.html")
+        window.location.href = "/../Fases/selecaoPer/html/002.html"
         }
     }
 
