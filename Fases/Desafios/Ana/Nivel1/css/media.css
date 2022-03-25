@@ -1,0 +1,631 @@
+/* INDEX */
+
+@media (min-width: 200px) and (max-width: 500px){  
+    
+    body#root{
+        height: 100%;
+        
+    }
+
+    header{
+        display: none;
+    }
+    section.box01{
+        width: 90%;
+        height: 10px;
+        background-color: var(--cor2);
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    section.tela{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 400px;
+        background-position: center;
+        background-size: 100% 100%;
+        border: 7px solid var(--cor2);
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+    /*-------------------------------*/
+
+    /* TITULO */
+
+    section.contTit{
+        width: 100%;
+        height: 40px;
+    }
+
+    h1#titulo{
+        font-size: 20px;
+    }
+
+    /* SECTION INFORMAÇÕES */
+
+    section.contInfo{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        align-items: center;
+
+    }
+
+    section.contgeral{
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        height: 157px;
+    }
+
+    article.contparag{
+        width: 80%;
+        height: 140px;
+        margin-top: 10px;
+    }
+
+    p#txt01{
+
+        margin: 9px;
+    }
+
+    div.contBotones{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+    }
+
+    img#boton01{
+        width: 30px;
+        height: 30px;
+
+    }
+
+    input#boton02{
+        width: 50px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+
+    /* CARD DEL PERSONAJE - ASIDE */
+
+
+    aside.contInfo02{
+        width: 100%;
+        height: 207px;
+        margin: 4px;
+        border-radius: 20px;
+    }
+
+    div.cuadrado{
+        width: 100%;
+        height: 100px;
+        margin: 4px;
+
+    }
+
+    /*  img  */
+
+    div#img{
+        height: 50px;
+        margin-top: 1px;
+    }
+    
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+    /* OPÇÕES */
+
+    article#opciones{
+        margin: 5px;
+    }
+
+    /* TEXTO */
+
+    h2#par01{
+        font-size: 10px;
+    }
+
+    /* Boton */
+
+    input#boton03{
+
+        width: 105px;
+    }
+
+
+    /*   ----------------------------------   */
+
+    footer#eP2{
+        display: none;
+    }
+    section.box02{
+    width: 90%;
+    height: 10px;
+    background-color: var(--cor2);  
+    }
+    
+}
+
+@media (min-width: 501px) and (max-width:1080px){
+    
+    body#root{
+        height: 100%;
+        
+    }
+
+    header{
+        display: none;
+    }
+    section.box01{
+        width: 90%;
+        height: 10px;
+        background-color: var(--cor2);
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    section.tela{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 400px;
+        background-position: center;
+        background-size: 100% 100%;
+        border: 7px solid var(--cor2);
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+    /* TITULO */
+
+    section.contTit{
+        width: 100%;
+        height: 50px;
+    }
+
+    h1#titulo{
+        font-size: 30px;
+    }
+
+    /* SECTION INFORMAÇÕES */
+
+    section.contInfo{
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        align-items: center;
+
+    }
+
+    section.contgeral{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 335px;
+    }
+
+    article.contparag{
+        width: 80%;
+        height: 400px;
+        margin: 10px;
+    }
+
+    p#txt01{
+
+        margin: 15px;
+    }
+
+    div.contBotones{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    img#boton01{
+        width: 50px;
+        height: 50px;
+
+    }
+
+    input#boton02{
+        width: 70px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+
+    /* CARD DEL PERSONAJE - ASIDE */
+
+
+    aside.contInfo02{
+        width: 40%;
+        height: 295px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    div.cuadrado{
+        width: 100%;
+        height: 100px;
+        margin: 4px;
+
+    }
+
+    /*  img  */
+
+    div#img{
+        height: 78px;
+        width: 100px;
+        margin-top: 1px;
+    }
+    
+
+    img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* OPÇÕES */
+
+    article#opciones{
+        margin: 5px;
+        height: 230px;
+    }
+
+    /* TEXTO */
+
+    h2#par01{
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    /* Boton */
+
+    input#boton03{
+
+        width: 105px;
+        height: 24px;
+    }
+
+    /*   ----------------------------------   */
+
+    footer#eP2{
+        display: 70px;
+    }
+    section.box02{
+    width: 90%;
+    height: 10px;
+    background-color: var(--cor2);  
+    }
+
+}
+
+@media(min-width: 1081px) and (max-width: 2080px){
+
+    body#root{
+        height: 100%;
+        
+    }
+
+    header{
+        display: 80px;
+    }
+    section.box01{
+        width: 90%;
+        height: 10px;
+        background-color: var(--cor2);
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    section.tela{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 400px;
+        background-position: center;
+        background-size: 100% 100%;
+        border: 7px solid var(--cor2);
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+
+     /* TITULO */
+
+    section.contTit{
+        width: 100%;
+        height: 60px;
+    }
+
+    h1#titulo{
+        font-size: 50px;
+    }
+
+    /* SECTION INFORMAÇÕES */
+
+    section.contInfo{
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        align-items: center;
+
+    }
+
+    section.contgeral{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 335px;
+    }
+
+    article.contparag{
+        width: 80%;
+        height: 400px;
+        margin: 10px;
+    }
+
+    p#txt01{
+
+        margin: 15px;
+        font-size: 15px;
+    }
+
+    div.contBotones{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    img#boton01{
+        width: 60px;
+        height: 60px;
+
+    }
+
+    input#boton02{
+        width: 80px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+
+    /* CARD DEL PERSONAJE - ASIDE */
+
+
+    aside.contInfo02{
+        width: 40%;
+        height: 295px;
+        margin: 20px;
+        border-radius: 20px;
+        display: flex;
+    }
+
+    div.cuadrado{
+        width: 100%;
+        height: 295px;
+        margin: 4px;
+
+    }
+
+    /*  img  */
+
+    div#img{
+        height: 78px;
+        width: 100px;
+        margin-top: 1px;
+    }
+    
+
+    img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* OPÇÕES */
+
+    article#opciones{
+        margin: 5px;
+        height: 230px;
+    }
+
+    /* TEXTO */
+
+    h2#par01{
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    /* Boton */
+
+    input#boton03{
+
+        width: 105px;
+        height: 27px;
+    }
+
+
+
+
+    /*   ----------------------------------   */
+
+    footer#eP2{
+        display: 80px;
+    }
+    section.box02{
+    width: 90%;
+    height: 10px;
+    background-color: var(--cor2);  
+    }
+
+}
+@media(min-width: 2081px) and (max-width: 3080px){
+    body#root{
+        height: 100%;
+        
+    }
+
+    header{
+        height: 80px;
+    }
+    section.box01{
+        width: 90%;
+        height: 10px;
+        background-color: var(--cor2);
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    section.tela{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 1070px;
+        background-position: center;
+        background-size: 100% 100%;
+        border: 7px solid var(--cor2);
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+    /* TITULO */
+
+    section.contTit{
+        width: 100%;
+        height: 100px;
+    }
+
+    h1#titulo{
+        font-size: 80px;
+    }
+
+    /* SECTION INFORMAÇÕES */
+
+    section.contInfo{
+        display: flex;
+        flex-direction: row;
+        height: 966px;
+        align-items: center;
+
+    }
+
+    section.contgeral{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 955px;
+    }
+
+    article.contparag{
+        width: 80%;
+        height: 760px;
+        margin: 20px;
+    }
+
+    p#txt01{
+
+        margin: 40px;
+        font-size: 30px;
+    }
+
+    div.contBotones{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 190px;
+    }
+
+    img#boton01{
+        width: 120px;
+        height: 120px;
+
+    }
+
+    input#boton02{
+        width: 180px;
+        height: 86px;
+        font-size: 25px;
+    }
+
+
+    /* CARD DEL PERSONAJE - ASIDE */
+
+
+    aside.contInfo02{
+        width: 40%;
+        height: 770px;
+        margin: 20px;
+        border-radius: 20px;
+        display: flex;
+    }
+
+    div.cuadrado{
+        width: 100%;
+        height: 770px;
+        margin: 4px;
+
+    }
+
+    /*  img  */
+
+    div#img{
+        height: 200px;
+        width: 200px;
+        margin-top: 1px;
+    }
+    
+
+    img{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* OPÇÕES */
+
+    article#opciones{
+        margin: 5px;
+        height: 490px;
+    }
+
+    /* TEXTO */
+
+    h2#par01{
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    /* Boton */
+    div.respuesta{
+        width: 100%;
+        height: 100px;
+    }
+
+    input#boton03{
+
+        width: 200px;
+        height: 80px;
+        font-size: 25px;
+    }
+
+    /*   ----------------------------------   */
+
+    footer#eP2{
+        display: 80px;
+    }
+    section.box02{
+    width: 90%;
+    height: 10px;
+    background-color: var(--cor2);  
+    }
+}
+
+/*=========================================================================*/
+

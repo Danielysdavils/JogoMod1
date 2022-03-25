@@ -159,9 +159,11 @@ img.bot:hover{
 
 aside.containerImg01{
     width: 30%;
-    height: 700%;
+    height: 380px;
     display: flex;
     flex-direction: column;
+    background-color: black;
+    border-radius: 15px;
 }
 img.confimg{
     width: 200px;

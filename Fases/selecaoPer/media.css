@@ -1,0 +1,656 @@
+/* INDEX */
+
+@media (min-width: 200px) and (max-width: 500px){  
+    
+    body#root{
+        height: 100%;
+        
+    }
+
+    header{
+        display: none;
+    }
+    section.box01{
+        width: 90%;
+        height: 10px;
+        background-color: var(--cor2);
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    section.tela{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 400px;
+        background-position: center;
+        background-size: 100% 100%;
+        border: 7px solid var(--cor2);
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+    /* Container Tit */
+
+    section#Conttitulo{
+        height: 40px;
+    }
+
+    h1#titulo{
+
+
+    }
+
+    /* CONTAINER ESCOLHAS */
+
+    section#contEsc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 360px;
+    }
+
+    /* Seleccion de img personajes */
+    
+    section#selecP{
+        display: flex;
+        flex-direction: row;
+    }
+
+    img{
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Seccion de info personajes */
+    
+    section#containerInf{
+        display: flex;
+        width: 90%;
+    }
+
+    div.container{
+        height: 232px;
+    }
+
+    div.img{
+        width: 50%;
+        height: 175px;
+
+    }
+
+    img#trocaimg{
+        height: 50px;
+        width: 50px;
+    }
+
+    h2#trocatxt{
+        font-size: 10px;
+    }
+
+    div.info{
+
+        height: 175px;
+    }
+
+    div.op01{
+
+        height: 137px;
+    }
+
+    h2.datos01{
+        height: 30px;
+    }
+
+    img.imgedit{
+
+
+    }
+    div.op02{
+        height: 137px;
+    }
+
+    h2.datos02{
+        height: 30px;
+
+    }
+
+    div.op03{
+        height: 137px;
+
+    }
+
+    h2.datos03{
+        height: 30px;
+
+
+    }
+
+    /* BOTON ESCOLHER */
+
+    section.escolher{
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        width: 100%;
+    }
+    div.boton01{
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        width: 100%;
+    }
+
+    input.siguiente{
+
+    }
+
+    /*   ----------------------------------   */
+
+    footer#eP2{
+        display: none;
+    }
+    section.box02{
+    width: 90%;
+    height: 10px;
+    background-color: var(--cor2);  
+    }
+    
+}
+
+@media (min-width: 501px) and (max-width:1080px){
+    
+    body#root{
+        height: 100%;
+        
+    }
+
+    header{
+        display: none;
+    }
+    section.box01{
+        width: 90%;
+        height: 10px;
+        background-color: var(--cor2);
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    section.tela{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 400px;
+        background-position: center;
+        background-size: 100% 100%;
+        border: 7px solid var(--cor2);
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+    /* Container Tit */
+
+    section#Conttitulo{
+        height: 40px;
+    }
+
+    h1#titulo{
+        font-size: 25px;
+
+    }
+
+    /* CONTAINER ESCOLHAS */
+
+    section#contEsc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 360px;
+    }
+
+    /* Seleccion de img personajes */
+    
+    section#selecP{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    img{
+        width: 70px;
+        height: 70px;
+    }
+
+    /* Seccion de info personajes */
+    
+    section#containerInf{
+        display: flex;
+        width: 90%;
+    }
+
+    div.container{
+        height: 310px;
+    }
+
+    div.img{
+        width: 50%;
+        height: 275px;
+
+    }
+
+    img#trocaimg{
+        height: 80px;
+        width: 80px;
+    }
+
+    h2#trocatxt{
+        font-size: 25px;
+    }
+
+    div.info{
+
+        height: 275px;
+    }
+
+    div.op01{
+
+        height: 137px;
+    }
+
+    h2.datos01{
+        height: 30px;
+    }
+
+    img.imgedit{
+
+
+    }
+    div.op02{
+        height: 137px;
+    }
+
+    h2.datos02{
+        height: 30px;
+
+    }
+
+    div.op03{
+        height: 137px;
+
+    }
+
+    h2.datos03{
+        height: 30px;
+
+
+    }
+
+    /* BOTON ESCOLHER */
+
+    section.escolher{
+        display: flex;
+        flex-direction: row;
+        height: 310px;
+        width: 20%;
+    }
+    div.boton01{
+        display: flex;
+        flex-direction: column;
+        height: 135px;
+        width: 100%;
+    }
+
+    input.siguiente{
+
+    }
+
+
+
+
+    /*   ----------------------------------   */
+
+    footer#eP2{
+        display: 70px;
+    }
+    section.box02{
+    width: 90%;
+    height: 10px;
+    background-color: var(--cor2);  
+    }
+
+}
+
+@media(min-width: 1081px) and (max-width: 2080px){
+
+    body#root{
+        height: 100%;
+        
+    }
+
+    header{
+        display: 80px;
+    }
+    section.box01{
+        width: 90%;
+        height: 10px;
+        background-color: var(--cor2);
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    section.tela{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 400px;
+        background-position: center;
+        background-size: 100% 100%;
+        border: 7px solid var(--cor2);
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+
+     /* Container Tit */
+
+     section#Conttitulo{
+        height: 40px;
+    }
+
+    h1#titulo{
+        font-size: 25px;
+
+    }
+
+    /* CONTAINER ESCOLHAS */
+
+    section#contEsc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 360px;
+    }
+
+    /* Seleccion de img personajes */
+    
+    section#selecP{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    img{
+        width: 70px;
+        height: 70px;
+    }
+
+    /* Seccion de info personajes */
+    
+    section#containerInf{
+        display: flex;
+        width: 90%;
+    }
+
+    div.container{
+        height: 310px;
+    }
+
+    div.img{
+        width: 50%;
+        height: 275px;
+
+    }
+
+    img#trocaimg{
+        height: 70px;
+        width: 70px;
+    }
+
+    h2#trocatxt{
+        font-size: 25px;
+    }
+
+    div.info{
+
+        height: 275px;
+    }
+
+    div.op01{
+
+        height: 137px;
+    }
+
+    h2.datos01{
+        height: 30px;
+    }
+
+    img.imgedit{
+
+
+    }
+    div.op02{
+        height: 137px;
+    }
+
+    h2.datos02{
+        height: 30px;
+
+    }
+
+    div.op03{
+        height: 137px;
+
+    }
+
+    h2.datos03{
+        height: 30px;
+
+
+    }
+
+    /* BOTON ESCOLHER */
+
+    section.escolher{
+        display: flex;
+        flex-direction: row;
+        height: 310px;
+        width: 20%;
+    }
+    div.boton01{
+        display: flex;
+        flex-direction: column;
+        height: 135px;
+        width: 100%;
+    }
+
+    input.siguiente{
+
+    }
+
+
+
+
+    /*   ----------------------------------   */
+
+    footer#eP2{
+        display: 80px;
+    }
+    section.box02{
+    width: 90%;
+    height: 10px;
+    background-color: var(--cor2);  
+    }
+
+}
+@media(min-width: 2081px) and (max-width: 3080px){
+    body#root{
+        height: 100%;
+        
+    }
+
+    header{
+        height: 80px;
+    }
+    section.box01{
+        width: 90%;
+        height: 10px;
+        background-color: var(--cor2);
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    section.tela{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 1070px;
+        background-position: center;
+        background-size: 100% 100%;
+        border: 7px solid var(--cor2);
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+
+     /* Container Tit */
+
+     section#Conttitulo{
+        height: 133px;
+    }
+
+    h1#titulo{
+        font-size: 60px;
+
+    }
+
+    /* CONTAINER ESCOLHAS */
+
+    section#contEsc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 850px;
+    }
+
+    /* Seleccion de img personajes */
+    
+    section#selecP{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 850px;
+    }
+
+    img{
+        width: 170px;
+        height: 170px;
+    }
+
+    /* Seccion de info personajes */
+    
+    section#containerInf{
+        display: flex;
+        width: 90%;
+        height: 850px;
+    }
+
+    div.container{
+        height: 800px;
+    }
+
+    div.img{
+        width: 50%;
+        height: 700px;
+        margin: 30px;
+
+    }
+
+    img#trocaimg{
+        height: 300px;
+        width: 300px;
+    }
+
+    h2#trocatxt{
+        font-size: 50px;
+    }
+
+    div.info{
+
+        height: 700px;
+    }
+
+    div.op01{
+
+        height: 234px;
+    }
+
+    h2.datos01{
+        width: 100%;
+        height: 100px;
+        font-size: 30px;
+    }
+
+    img.imgedit{
+
+
+    }
+    div.op02{
+        height: 233px;
+    }
+
+    h2.datos02{
+        width: 100%;
+        height: 100px;
+        font-size: 30px;
+
+    }
+
+    div.op03{
+        height: 234px;
+
+    }
+
+    h2.datos03{
+        width: 100%;
+        height: 100px;
+        font-size: 30px;
+
+    }
+
+    /* BOTON ESCOLHER */
+
+    section.escolher{
+        display: flex;
+        flex-direction: row;
+        height: 850px;
+        width: 20%;
+    }
+    div.boton01{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+    }
+
+    input.siguiente{
+        width: 170px;
+        height: 70px;
+        font-size: 30px;
+        justify-content: center;
+    }
+
+
+
+
+    /*   ----------------------------------   */
+
+    footer#eP2{
+        display: 80px;
+    }
+    section.box02{
+    width: 90%;
+    height: 10px;
+    background-color: var(--cor2);  
+    }
+}
