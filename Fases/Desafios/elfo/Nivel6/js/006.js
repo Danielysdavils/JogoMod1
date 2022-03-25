@@ -21,5 +21,5 @@ escriba(titulo)
 var boton = document.getElementById("boton")
 
 function inicio (){
-    window.location.href = "file:///C:/Users/Ebanx/Documents/DanielysEstudio/JogoMod1/index.html"
+    window.location.href = "../../../../../index.html"
 } 

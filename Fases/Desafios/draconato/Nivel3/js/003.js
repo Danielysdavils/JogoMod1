@@ -6,7 +6,7 @@ var suich = 0
 
     if(suich === 0){
     function atras(){
-        window.location.href = "/../Fases/Desafios/draconato/Nivel2/html/002.html"
+        window.location.href = "../../Nivel2/html/002.html"
         }
     }
 
@@ -43,7 +43,7 @@ function escolher(){
         
         if(res.indexOf("1") >= 0){
             alert(`Muito Bem!`)
-            window.location.href = "/../Fases/Desafios/draconato/Nivel4/html/004.html"
+            window.location.href = "../../Nivel4/html/004.html"
             break;
         }else{
             alert(`Poxa essa não deu! Agora você tem ${nVidas}`)
@@ -52,6 +52,6 @@ function escolher(){
         }}
 
     if(nVidas == 0){
-        window.location.href = "/../Fases/Desafios/draconato/Nivel3/html/gameover.html"
+        window.location.href = "gameover.html"
     }
 }
