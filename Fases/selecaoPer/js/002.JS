@@ -112,5 +112,5 @@ function escolher(){
 }
 
 function retornar(){
-    window.location.href = "../../../Fases/Hist%C3%B3ria/html/01.html"
+    window.location.href = "../../História/html/01.html"
 }
