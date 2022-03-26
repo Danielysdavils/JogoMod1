@@ -14,13 +14,13 @@ var suich = 0
         var suich = 3
         if(suich === 3){
 
-            texto.innerText = `[B]lorem`
+            texto.innerText = `Ele nem tinha intenção de brigar. Só estava com dor, muita dor. Então, o que deveria fazer? `
             botonSeg.style.display = 'none';
             res = Number(suich - 1)
 
             if(res === 2){
                 botonRet.addEventListener("mouseover", function(){
-                texto.innerText = `[A]lorem`
+                texto.innerText = `Ela tenta pensar em como merece vencer e receber aprovação, a aprovação dela mesma. Só que, ao se acercar,  percebe que o golem definitivamente não está bem. Poderia continuar e vencer tão facilmente. Receber o prêmio e a liderança. Mas teria a capacidade de fazer isso? O golem precisava de ajuda, não podia continuar assim. `
                 botonSeg.style.display = 'flex';})
                 res = Number(res - 1)
             }      
@@ -35,19 +35,19 @@ var botonEsc = document.getElementById("boton03");
 
 function escolher(){
     
-    res = prompt(`Qual é a melhor alternativa a escolher?\n 1 lorem \n 2 lorem \n 3 lorem`)
+    res = prompt(`Qual é a melhor alternativa a escolher?\n 1 Não ajudar o golem \n 2 Ajudar o golem \n 3 Sair da batalha`)
 
     var nVidas = 3;
 
     while(nVidas >= 1){
         
         if(res.indexOf("2") >= 0){
-            alert(`Muito Bem!`)
+            alert(`Não sei o que estou fazendo!!!!`)
             window.location.href = "../../Nivel5/html/005.html"
             break;
         }else{
-            alert(`Poxa essa não deu! Agora você tem ${nVidas}`)
-            res = prompt(`Qual é a melhor alternativa a escolher?\n 1 lorem \n 2 lorem \n 3 lorem`)
+            alert(`Poderei dormir nas noites com isso? \n Agora você tem ${nVidas} vidas`)
+            res = prompt(`Qual é a melhor alternativa a escolher?\n 1 Não ajudar o golem \n 2 Ajudar o golem \n 3 Sair da batalha`)
             nVidas--;
         }}
 
